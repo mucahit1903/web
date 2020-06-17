@@ -1,3 +1,1 @@
-var ad = "mücahit"
-
-console.log(ad)
+console.log("hello world!!")
