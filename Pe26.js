@@ -122,4 +122,3 @@ function longestRecurring(n) {
 }
 
 console.log(longestRecurring(1000))
-
