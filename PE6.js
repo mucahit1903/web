@@ -1,6 +1,8 @@
+var sumOfSquares = 0;
+var sqaureOfSum = 0;
+
 function sumDifference(endNumber) {
-    var sumOfSquares = 0;
-    var sqaureOfSum = 0;
+
     for (var i = 1; i <= endNumber; i++)
     {
         sumOfSquares += Math.pow(i, 2);
@@ -11,3 +13,5 @@ function sumDifference(endNumber) {
 }
 
 sumDifference(3);
+
+console.log(sqaureOfSum - sumOfSquares);
