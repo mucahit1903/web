@@ -1,4 +1,2 @@
 # web
-ilk değişiklik
-
-ikinci değişiklik
+Web Editörü Dersi Final Ödevi Kaynak Dosyaları.
