@@ -1,11 +1,13 @@
-function sumDifference(endnumber) {
-    var kareToplam = 0;
-    var toplamKare = 0;
-    for (var i = 1; i <= endnumber; i++)
+function sumDifference(endNumber) {
+    var sumOfSquares = 0;
+    var sqaureOfSum = 0;
+    for (var i = 1; i <= endNumber; i++)
     {
-        kareToplam += Math.pow(i, 2);
-        toplamKare += i;
+        sumOfSquares += Math.pow(i, 2);
+        sqaureOfSum += i;
     }
-    toplamKare = Math.pow(toplamKare, 2);
-    return toplamKare - kareToplam;
+    sqaureOfSum = Math.pow(sqaureOfSum, 2);
+    return sqaureOfSum - sumOfSquares;
 }
+
+sumDifference(3);
