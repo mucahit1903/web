@@ -1,1 +1,3 @@
-console.log("hello")
+var ad = "mücahit"
+
+console.log(ad)
