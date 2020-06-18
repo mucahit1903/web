@@ -1,4 +1,4 @@
-var nums = [1, 1, 2,];
+var nums = [1, 1, 2, 3, 3, 3, 4, 4];
 
 var removeDuplicates = function (nums) {
     var sortedArray = nums.sort();
