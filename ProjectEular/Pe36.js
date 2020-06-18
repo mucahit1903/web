@@ -46,7 +46,7 @@ function getNum() {
 
             if (palindromic2 && palindromic10)
             {
-                return ("This magical number is " + numString + " ...in base 2 ==> " + baseTwo);
+                return ("Number: " + numString + " => in base 2 ==> " + baseTwo);
             }
         }
 
